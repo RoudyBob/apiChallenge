@@ -1,0 +1,100 @@
+body {
+    background-color: white;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+.wrapper {
+    width: 400px;
+    margin: auto;
+}
+
+.previewAvataar {
+    width: 400px;
+    height: 400px;
+    border: solid 2px black;
+    background-color: white;
+}
+
+.previewAvataar img {
+    width: 400px;
+    padding-top: 60px;
+}
+
+.previewAvataar h2 {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.previewAvataar p {
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+
+.bottom {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#controlBtn {
+    background-color: green;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    font-size: 22px;
+}
+
+#controlBtn:hover {
+    cursor: pointer;
+}
+
+#resetBtn {
+    background-color: gray;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    font-size: 22px;
+}
+
+#resetBtn:hover {
+    cursor: pointer;
+}
+
+.avataarLineup {
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 400px;
+    height: 412px;
+    border: solid 2px black;
+    background-color: lightgray;
+}
+
+.avataarLineup h2 {
+    font-size: 100px;
+    position: absolute;
+    top: 150px;
+    background-color: white;
+}
+
+.avataarLineup input {
+    width: 100px;
+    outline: none;
+    cursor: pointer;
+}
