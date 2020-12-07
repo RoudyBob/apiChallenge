@@ -26,7 +26,7 @@ function generateURL(length) {
     let seed = Math.random().toString(length).substr(2, length); 
     
     let url = baseURL + sprites[6] + "/" + seed + ".svg";
-    retu;rn url;
+    return url;
 }
 
 function displaySuspect(returnedSprite) {
