@@ -19,8 +19,6 @@ var randomPosition = Math.floor(Math.random() * (71 - 0 + 1) + 0);
 // Build an array with all of the URLs for the lineup
 var lineupArray = [generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(), generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(), generateURL(), generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(), generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(), generateURL()];
 
-console.log(lineupArray);
-
 // Start with lineup DIV and reset button hidden
 avataarLineup.style.display = "none";
 resetButton.style.display = "none";
@@ -84,7 +82,6 @@ function fetchSuspect(e) {
                 let input = document.createElement('input');
                 input.type = "image";
                 input.src = lineupArray[character] + "?r=0";
-                console.log(input.src);
                 input.className = (character == randomPosition) ? "winner" : "loser";
                 lineupDiv.appendChild(input);
             }
