@@ -1,20 +1,28 @@
 body {
     background-color: white;
-    margin: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: auto;
+      display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 
 .header {
     text-align: center;
 }
+
 .wrapper {
-    width: 400px;
-    margin: auto;
+    width: 800px;
+    margin: 0 auto;
+    top: 25%;
 }
 
 .previewAvataar {
+    margin: auto;
     width: 400px;
     height: 400px;
     border: solid 2px black;
@@ -75,13 +83,14 @@ body {
 
 .avataarLineup {
     margin: auto;
-    padding: 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 400px;
-    height: 412px;
+    align-items: center; 
+    justify-content:space-evenly;
+    padding-top: 2px;
+    width: 600px;
+    height: auto;
     border: solid 2px black;
     background-color: lightgray;
 }
@@ -89,12 +98,13 @@ body {
 .avataarLineup h2 {
     font-size: 100px;
     position: absolute;
-    top: 150px;
+    top: 395px;
     background-color: white;
 }
 
 .avataarLineup input {
-    width: 100px;
+    width: 75px;
     outline: none;
     cursor: pointer;
+    padding: 0px;
 }
