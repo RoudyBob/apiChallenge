@@ -14,10 +14,10 @@ var suspectUrl; // Used to store the URL for the suspect
 
 // Pick a random spot in the array that will be built to insert the 
 // suspect in the lineup - Random # between 0 and 15 inclusive.
-var randomPosition = Math.floor(Math.random() * (63 - 0 + 1) + 0);
+var randomPosition = Math.floor(Math.random() * (71 - 0 + 1) + 0);
 
 // Build an array with all of the URLs for the lineup
-var lineupArray = [generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(), generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(), generateURL(), generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(), generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(), generateURL()];
+var lineupArray = [generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(), generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(), generateURL(), generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(), generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(),generateURL(), generateURL()];
 
 console.log(lineupArray);
 
